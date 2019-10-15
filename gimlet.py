@@ -21,12 +21,12 @@ def to_api_url(raw_url):
 
 
 def get_response_info(r):
-    return {k: r.json()[k] for k in ["title", "additions", "deletions", "statuses_url"]}
+    return {k: r.json()[k] for k in ["title", "additions", "deletions", "changed_files", "statuses_url"]}
 
 
 def craft_string(d, pr_url):
     return (
-        f"{d['status']} +{d['additions']} -{d['deletions']} | {d['title']}\n\t{pr_url}"
+        f"{d['status']} +{d['additions']} -{d['deletions']} ({d['changed_files']} files) | {d['title']}\n\t{pr_url}"
     )
 
 
