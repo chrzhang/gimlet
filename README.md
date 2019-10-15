@@ -16,3 +16,6 @@ After creating a Personal access token, make sure to `Enable SSO`.
 success +181 -98 (7 files) | JSON support for test client and response object
         https://github.com/pallets/flask/pull/1416     
 ```
+
+Sources:
+- [auth](https://developer.github.com/v3/auth/#via-oauth-tokens)
