@@ -8,9 +8,10 @@
 GITHUB_PERSONAL_ACCESS_TOKEN=<token>
 GITHUB_USER=<user>
 ```
+After creating a Personal access token, make sure to `Enable SSO`.
 
 ## usage
-```bash
+```
 > python gimlet.py https://github.com/pallets/flask/pull/1416
 success +181 -98 (7 files) | JSON support for test client and response object
         https://github.com/pallets/flask/pull/1416     
