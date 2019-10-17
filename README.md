@@ -1,4 +1,4 @@
-# gimlet
+# :cocktail: gimlet
 
 ## setup
 - `virtualenv venv`
